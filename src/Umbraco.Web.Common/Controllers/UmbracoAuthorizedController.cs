@@ -10,6 +10,6 @@ namespace Umbraco.Cms.Web.Common.Controllers;
 /// </summary>
 [Authorize(Policy = AuthorizationPolicies.BackOfficeAccess)]
 [DisableBrowserCache]
-public abstract class UmbracoAuthorizedController : ControllerBase
+public abstract class UmbracoAuthorizedController : Controller
 {
 }
